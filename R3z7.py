@@ -41,7 +41,7 @@ class fucker(threading.Thread):
         urllib.request.install_opener(opener) 
         req = urllib.request.Request(self.url, data, self.headers)
         urllib.request.urlopen(req)
-        print("[Bangladesh Cyber Army] R3ZU [%s]\r"%(self.url))
+        print("[BCA] R3z7 [%s]\r"%(self.url))
             
     def run(self):
         global Close, Request, Tot_req
